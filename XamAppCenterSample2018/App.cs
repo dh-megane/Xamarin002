@@ -21,6 +21,7 @@ namespace XamAppCenterSample2018
                 .RegisterAsLazySingleton();
 
             RegisterAppStart<MainViewModel>();
+            RegisterAppStart<MainViewModel>();
         }
 
     }

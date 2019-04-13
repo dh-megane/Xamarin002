@@ -14,6 +14,7 @@ namespace XamAppCenterSample2018
         /// </summary>
         public override void Initialize()
         {
+            //
             CreatableTypes()
                 .EndingWith("Service")
                 .AsInterfaces()

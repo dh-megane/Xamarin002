@@ -12,6 +12,7 @@ namespace XamAppCenterSample2018.Droid
     [Application]
     public class MainApplication : MvxAndroidApplication<MvxAndroidSetup<App>, App>
     {
+        //
         public MainApplication(IntPtr javaReference, JniHandleOwnership transfer)
             : base(javaReference, transfer)
         {
